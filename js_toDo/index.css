@@ -1,0 +1,25 @@
+
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    background-color: cyan;
+    font: verdana;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+
+button {
+    font-size: 10px;
+}
+
+.row {
+    margin-top: 2%;
+    grid-row: 1/span 2;
+}
+
+input {
+    margin-right: 5%;
+}
