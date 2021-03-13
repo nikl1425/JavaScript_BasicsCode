@@ -1,0 +1,31 @@
+h3 {
+    color: green;
+}
+
+h1 {
+    color:white
+};
+
+input {
+    width: 100px;
+}
+
+
+.myClass {
+    background-color:slategrey !important;
+    padding: 0 90px;
+}
+
+ul {
+    background-color: green;
+    list-style-type: none;
+}
+
+li {
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: snow;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
