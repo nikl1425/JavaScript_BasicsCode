@@ -19,6 +19,7 @@ input {
 ul {
     background-color: green;
     list-style-type: none;
+    padding-bottom: 1%;
 }
 
 li {
@@ -28,4 +29,15 @@ li {
     margin-top: 1%;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.list-group {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.sum {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    color: white;
 }
