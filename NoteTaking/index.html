@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <title>NoteTakingApp</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <h1>Notetaking - App</h1>
+        <div>
+            <form onsubmit="return false">
+                <label>title of note</label>
+                <input type="text" id="title">
+                <label for="notes">Enter note</label>
+                <textarea name="notes" id="notes" cols="60" rows="5"></textarea>
+                <button class="myButton" type="submit" onclick="myFunction(event)">Submit</button>
+            </form>
+        </div>
+        <div class="listContainer">
+            <ul id="myNotes">
+
+            </ul>
+        </div>
+        
+
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
